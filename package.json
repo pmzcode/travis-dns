@@ -31,11 +31,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pmzcode/heroku-dns.git"
+    "url": "git+https://github.com/pmzcode/travis-dns.git"
   },
   "bugs": {
-    "url": "https://github.com/pmzcode/heroku-dns/issues"
+    "url": "https://github.com/pmzcode/travis-dns/issues"
   },
-  "homepage": "https://github.com/pmzcode/heroku-dns#readme",
+  "homepage": "https://github.com/pmzcode/travis-dns#readme",
+  "directories": {
+    "test": "tests"
+  },
   "description": ""
 }
