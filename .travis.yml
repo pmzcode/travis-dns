@@ -1,10 +1,12 @@
 language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key: 1be11bd6-2e82-4ace-9238-829c1112369b
+  app: damp-dusk-59640
 notifications:
   email:
-    on_success: never
-    on_failure: change
-node_js:
-  - "node"
-  - "6"
-before_script:
-  - npm install
+    recipients:
+      - pmz-work@yandex.ru
+    on_success: never # default: change
+    on_failure: always # default: always
