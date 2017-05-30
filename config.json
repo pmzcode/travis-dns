@@ -1,0 +1,34 @@
+{
+
+  "db": {
+
+    "host": "127.0.0.1",
+    "name": "dns",
+    "user": "root",
+    "password": "root",
+    "dialect": "mysql"
+  },
+
+  "prod": {
+
+    "host": "ec2-54-163-234-20.compute-1.amazonaws.com",
+    "name": "d8e579to8e8vdm",
+    "user": "bjjgkgcrynsuud",
+    "password": "015c59290377d8fb8efcee4f1798b4514839b4f874756e099ad994b4dd32b8d9",
+    "dialect": "postgres"
+
+  },
+
+
+  "defaults": {
+    "readChunk": {
+      "limit": 10,
+      "page": 1,
+      "order": "asc",
+      "orderField": "id"
+    },
+    "search": {
+      "searchKey": ""
+    }
+  }
+}

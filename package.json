@@ -1,0 +1,41 @@
+{
+  "name": "jwt-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jest": "^20.0.1",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.16.4",
+    "mysql": "^2.11.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "pg": "^6.1.5",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.24.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^20.0.1",
+    "babel-preset-es2017": "^6.24.1",
+    "mocha": "^3.4.1",
+    "siege": "^0.2.0",
+    "supertest": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmzcode/heroku-dns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmzcode/heroku-dns/issues"
+  },
+  "homepage": "https://github.com/pmzcode/heroku-dns#readme",
+  "description": ""
+}
