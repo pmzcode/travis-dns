@@ -101,7 +101,7 @@ describe('Test set for Service.Base', () => {
             expect(repository.findById)
                 .toHaveBeenCalled();
 
-            expect(record).toEqual(data[42]);
+            expect(record).toEqual(12);
         });
 
 
